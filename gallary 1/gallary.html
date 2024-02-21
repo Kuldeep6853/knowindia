@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallary</title>
+    <link rel="stylesheet" href="gallary.css">
+</head>
+<body>
+    <h3> Gallary <span>Images</span></h3>
+    <div class="underline"></div>
+    <div class="full-img" id="fullImgBox">
+        <img src="./Grid_Gallery_Img/img1.jpg" id="fullImg" >
+        <span onclick="closeFullImg()">X</span>
+    </div>
+  <div class="img-gallary">
+    <img src="./Grid_Gallery_Img/aceofnet-I3Em9PGzkzw-unsplash.jpg" onclick="openfullImg(this.src)">
+    <img src="./Grid_Gallery_Img/alexander-schimmeck-astOH0KB9IM-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/atul-pandey-VWoh4lJ1fDM-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/boudhayan-bardhan-n2TpnZ9K28E-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/c-rayban-CIXoFys3gsw-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/debashis-rc-biswas-xAWb6qDCXDU-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/himanshu-singh-gurjar-iSi02D_Qx_w-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/manyu-varma-aDXV4GbqHcQ-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/manyu-varma-ef3A5EDR7Jk-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/nandu-menon-hGHldbCgYDA-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/pavan-gupta-_HzlOHmboSk-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/pratham-gupta-DksFIwoPLAA-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/raimond-klavins-0xQ1H6xMak4-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/raimond-klavins-7rciqlh5_iQ-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/raimond-klavins-mAmHb2EPeqI-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/raimond-klavins-mawY-M6oKpk-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/ravi-n-jha-aU9yXmIwfkw-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/renzo-d-souza-TrUI1hDUI2E-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/ryan-franco-tNqBjuUzF9U-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/sandip-karangiya-86N42yzJuLw-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/sergio-capuzzimati-R1CGt8exzLg-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/sonika-agarwal-QwPaMYCGy_A-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/sooraj-perambra-uv4h7wIQcHQ-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/swapnil-bhagwat-VE_8ByyYM2M-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/unfold-memory-PtvatRvyAWQ-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/vitaliy-lyubezhanin-gfVofr15ICc-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/yogendra-singh-0urYb7L8zRc-unsplash.jpg" onclick="openFullImg(this.src)">
+    <img src="./Grid_Gallery_Img/yogendra-singh-sNyKXzyRZIs-unsplash.jpg" onclick="openFullImg(this.src)">
+
+   
+  </div>
+  
+  <div class=" more">
+    <button>See More..</button>
+  </div>
+  <script>
+    var fullImgBox= document.getElementById("fullImgBox");
+    var fullImg= document.getElementById("fullImg");
+
+    function openfullImg(pic){
+        fullImgBox.style.display="flex";
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display="none";
+    }
+  </script>
+</body>
+</html>

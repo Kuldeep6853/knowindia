@@ -1,0 +1,126 @@
+*{
+    margin:0; padding:0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    width: 100%; height:20vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(degine1.png);
+   background-repeat:no-repeat;
+   background-size: cover;
+    color: white; display: flex; justify-content: space-between;
+    align-items:center ; text-transform: uppercase;
+}
+nav .logo{
+    width:25%; text-align: center;
+}
+
+nav .menu{
+    width: 30%; 
+    display:flex; justify-content: space-around;
+    opacity: 0.9;
+    text-decoration: none;
+}
+nav .menu .name{
+    text-decoration: none; color:rgb(244, 11, 11);
+    font-weight: bold;
+    opacity: 0.7;
+    transition: 10s;
+    
+}
+
+nav .menu .gal{
+    text-decoration: none; color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav .menu .abo{
+    text-decoration: none; color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav .menu .sta{
+    text-decoration: none; color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav .menu .book{
+    text-decoration: none; color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav .menu .abo{
+    text-decoration: none; color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav .menu .name:hover{
+    opacity: 4;
+    text-decoration: underline;
+}
+nav .menu .gal:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+nav .menu .sta:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+nav .menu .book:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+nav .menu .abo:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.holder{
+    display: flex;
+}
+span{
+    color: #e51e46;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px #000;
+}
+h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.image{
+    border-top: 5px solid red;
+    width: 18rem;
+    margin-left: 2.4rem;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    width: 97%;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left-content{
+    width: 45rem;
+}
+.container p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+    line-height: 23px;
+   
+}
+ .container img{
+    height: 40rem;
+    width: 40rem;
+    border-radius: 30px;
+ }
+ .underline img{
+    width: 1000px;
+    height: 200px;   
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
